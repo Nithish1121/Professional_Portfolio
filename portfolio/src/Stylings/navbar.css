@@ -1,0 +1,101 @@
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 25px;
+    /* color:white; */
+    color:#2e2e2e;
+    margin-top: 5px;
+}
+.no-underline {
+  text-decoration: none;
+}
+.role{
+    font-size: 16px;
+    font-family:cursive ;
+    margin-left: 190px;
+    font-weight:500;
+    color:rgb(199, 197, 197);
+    font-style: italic;
+}
+.navbar{
+    background: linear-gradient(to top, #121212, #00ffff);
+}
+.bran{
+    /* background-color: rebeccapurple; */
+    text-align: left;
+    height: 80px;
+}
+.symbol{
+   animation: glow 1.5s infinite alternate;
+   color:#2e2e2e;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 8px rgb(12, 12, 12), 0 0 10px rgb(13, 13, 13);
+  }
+  50% {
+    text-shadow: 0 0 12px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 5px rgb(7, 7, 7), 0 0 10px rgb(0, 0, 0);
+  }
+}
+
+.collapse{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    margin-bottom: 10px;
+    margin-right: 60px;
+}
+
+.nav-link {
+  position: relative;
+  color:#2e2e2e; /* or your preferred text color */
+  text-decoration: none;
+  padding-bottom: 10px; /* space between text and underline */
+  margin-left: 10px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  border-radius: 4px;
+  height: 4px;
+  background-color: #00ffff; /* underline color */
+  transition:width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 450px){
+    .name{
+        padding-left: 0px;
+    }   
+    .role{
+        margin-left: 140px;
+    }.nav-link {
+  position: relative;
+  color:#2e2e2e; /* or your preferred text color */
+  text-decoration: none;
+  padding-bottom: 6px; /* space between text and underline */
+  margin-left: 10px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 10;
+  bottom: 0;
+  width: 0%;
+  border-radius: 4px;
+  height: 0px;
+}
+}
