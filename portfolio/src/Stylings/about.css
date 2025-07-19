@@ -1,0 +1,16 @@
+.big{
+    font-size:140px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-top: -80px;
+    margin-left: -60px;
+    color: aqua;
+    opacity: 0.1;
+}
+.small{
+    z-index: 0;
+    position: absolute;
+    font-size: 33px;
+    top: 19%;
+    left: 33%;
+}

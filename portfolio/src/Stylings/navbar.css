@@ -9,7 +9,11 @@
 }
 .no-underline {
   text-decoration: none;
+  cursor: pointer;
 }
+/* .navbar{
+  position: fixed;
+} */
 .role{
     font-size: 16px;
     font-family:cursive ;
@@ -57,6 +61,7 @@
   text-decoration: none;
   padding-bottom: 10px; /* space between text and underline */
   margin-left: 10px;
+  cursor: pointer;  
 }
 
 .nav-link::after {

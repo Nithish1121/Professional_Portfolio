@@ -3,11 +3,13 @@
 // collaboration and communication skills enable seamless teamwork and efficient problem-solving. Proactive, adaptable, and 
 // committed to continuous learning, innovation, and delivering value-driven solutions.
 
+import "../Stylings/about.css";
 
 const About=()=>{
     return (
         <div className="about">
-            <h1> About </h1>
+            <p className="big">About</p>
+            <p className="small">About Me</p>
         </div>
     )
 }

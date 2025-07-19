@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+/* App.css or your section CSS */
+#home, #about, #experience, #project, #certificate, #contact {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+

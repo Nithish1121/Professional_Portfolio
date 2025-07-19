@@ -13,8 +13,8 @@ const Home=()=>{
                     <p className="para"> <span className="bullet">✧</span> <span className="heading">Is compiled to:</span> Shape concepts into interactive realities</p>
                 <div className="welcome">
                     <p>Building the future with clean code, creativity, and a passion for innovation.<br/>Welcome to my personal dev workspace where ideas come to life.</p>
-                    <a class="btn btn-primary" id="bt1" href="contact" role="button">Contact Me</a>
-                    <a class="btn btn-primary" id="bt2" href="project" role="button">View my projects</a>
+                    <a class="btn" id="bt1" href="contact" role="button">Contact Me</a>
+                    <a class="btn" id="bt2" href="project" role="button">View my projects</a>
                 </div>    
             </div>
         </div>
