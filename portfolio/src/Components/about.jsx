@@ -19,29 +19,41 @@ const About=()=>{
                     <div className="tools">
                         <p className="skill"><span className="bullet">✧</span> Frontend</p>
                         <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="pro1">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} ></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} >50%</div>
                         </div> 
                     </div>
                     <div className="tools">
                         <p className="skill"><span className="bullet">✧</span> Backend</p>
                         <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="pro2">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} ></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} >50%</div>
                         </div> 
                     </div>
                     <div className="tools">
                         <p className="skill"><span className="bullet">✧</span> Full-Stack</p>
                         <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="pro3">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} ></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} >50%</div>
                         </div> 
                     </div>
                     <div className="tools">
                         <p className="skill"><span className="bullet">✧</span> Data Analytics</p>
                         <div className="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="pro4">
-                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} ></div>
+                            <div className="progress-bar progress-bar-striped progress-bar-animated custom-progress-bar " style={{width: "50%"}} >50%</div>
                         </div> 
                     </div>
-                </div>
-                <div className="Subtools">     
+                    <div className="Subtools">
+                    <p className="tool" id="tool1">Java Script</p>
+                    <p className="tool">React</p>
+                    <p className="tool">HTML/CSS</p>
+                    <p className="tool">Bootstrap</p>
+                    <p className="tool">Git</p>
+                    </div>
+                    <div className="Subtools">
+                    <p className="tool">Java</p>
+                    <p className="tool">Springboot</p>
+                    <p className="tool">Power BI</p>
+                    <p className="tool">Python</p>
+                    <p className="tool">SQL</p>
+                    </div>
                 </div>
             </div>
         </div>

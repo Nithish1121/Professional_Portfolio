@@ -222,10 +222,12 @@
 }
 .welcome{
     margin-top: 20px;
-    margin-left: -48px;
+    margin-left: -50px;
     position: absolute;
     left: 20%;
-    font-size: 21px;
+    margin-right: 20px;
+    /* padding-right: 25px; */
+    font-size: 20px;
     width:400px; 
 }
 
