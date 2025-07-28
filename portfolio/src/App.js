@@ -43,6 +43,7 @@ import './App.css';
 import Navbar from './Components/navbar';
 import Home from './Components/home';
 import About from './Components/about';
+import Experience from './Components/experience';
 
 
 function App() {
@@ -55,7 +56,9 @@ function App() {
       <div id="about">
         <About />
       </div>
-      {/* Add other sections similarly */}
+      <div id="experience">
+        <Experience />
+      </div>
     </div>
   );
 }
