@@ -179,10 +179,14 @@ background: linear-gradient(to right, #00ffff, #000000);
 .big{
     font-size: 115px;
     margin-left:10px;
-}  
+    visibility: hidden;
+}
 .small{
+    margin-top: -10px;
     font-size:26px;
     top:106.5%; 
+    left: 28%;
+    font-size: 40px;
 } 
 .aboutContainer{
     animation: none;
@@ -252,10 +256,13 @@ background: linear-gradient(to right, #00ffff, #000000);
 .big{
     font-size: 115px;
     margin-left:10px;
+    visibility: hidden;
+
 }  
 .small{
-    font-size:26px;
-    top:118%; 
+    font-size:30px;
+    left:37%;
+    top:115%;   
 } 
 .aboutContainer{
     animation: none;

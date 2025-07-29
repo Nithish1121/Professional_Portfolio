@@ -1,12 +1,13 @@
 .experience_container{
     height: 580px;
     animation: rgbt-border 3s infinite;
-    width: auto;
     margin-top:0px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-      
+}
+#experi_big1{
+  display: none;
 }
 #experi_small{
     position: absolute;
@@ -258,4 +259,108 @@
   font-size: 20px;
   font-style: italic;
   /* margin-bottom: -15px; */
+}
+
+@media (min-width:400px) and (max-width:600px)
+{
+  .experience_container{
+    animation: none;
+  }
+.row{
+  font-size: 16px ;
+}
+#list-item-1, #list-item-2, #list-item-3, #list-item-4,#list-item-5,#list-item-6, #list-item-7 {
+
+  font-size: 26px;
+}
+  #experi_big{
+display: none;}
+
+  #experi_small{
+    top: 200%;
+    left: 27%;
+  }
+  .toggle-switch {
+    position: absolute;
+    left: 17%;
+    top: 207%;
+  }
+  .education-row,.experience-row{
+    position: absolute;
+    width: 83%;
+    top: 217%;
+    left: 9%;
+  }
+  .list-group-item{
+    background-color: red;
+    display: none;
+  }
+  .col-8{
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    top:0%
+  }
+  #education-list{
+    width: 150%;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  #experience-list{
+    width: 150%;
+    margin-left: 10px;
+    margin-top: 15px;
+    /* margin-bottom:-20px; */
+  }
+}
+
+@media (max-width:399px)
+{
+  .experience_container{
+    animation: none;
+  }
+
+  #experi_big{
+    display: none;}
+
+  #experi_small{
+    top: 220%;
+    left: 37%;
+  }
+  .row{
+  font-size: 16px ;
+}
+#list-item-1, #list-item-2, #list-item-3, #list-item-4,#list-item-5,#list-item-6, #list-item-7 {
+
+  font-size: 26px;
+}
+  .toggle-switch {
+    position: absolute;
+    left: 20%;
+    top: 227%;
+  }
+  .education-row,.experience-row{
+    position: absolute;
+    width: 93%;
+    top: 237%;
+    left: 9%;
+  }
+  .list-group-item{
+    display: none;
+  }
+  .col-8{
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    top:0%
+  }
+  #education-list{
+    width: 150%;
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+  #experience-list{
+    width: 150%;
+    margin-left: 10px;
+    margin-top: 15px;
+    /* margin-bottom:-20px; */
+  }
 }

@@ -327,6 +327,7 @@ useEffect(() => {
               data-bs-smooth-scroll="true"
               data-bs-offset="0"
               className="scrollspy-example"
+              id="education-list"
               tabIndex="0"
               style={{ position: 'relative', height: '260px', overflow: 'auto' }}
             >
@@ -368,6 +369,7 @@ useEffect(() => {
               data-bs-smooth-scroll="true"
               className="scrollspy-example"
               tabIndex="0"
+              id="experience-list"
               data-bs-offset="0"
               style={{ position: 'relative', height: '260px', overflow: 'auto' }}
             >
