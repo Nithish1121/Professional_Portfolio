@@ -44,6 +44,7 @@ import Navbar from './Components/navbar';
 import Home from './Components/home';
 import About from './Components/about';
 import Experience from './Components/experience';
+import Projects from './Components/projects';
 
 
 function App() {
@@ -58,6 +59,9 @@ function App() {
       </div>
       <div id="experience">
         <Experience />
+      </div>
+      <div id="project">
+        <Projects />
       </div>
     </div>
   );

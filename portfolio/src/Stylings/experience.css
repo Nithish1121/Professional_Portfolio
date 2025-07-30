@@ -1,10 +1,10 @@
 .experience_container{
     height: 580px;
     animation: rgbt-border 3s infinite;
-    margin-top:0px;
+    /* margin-top:0px; */
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 90px; */
 }
 #experi_big1{
   display: none;
@@ -13,9 +13,11 @@
     position: absolute;
     top: 236%;
     left: 45%;
+    margin-top: -22px;
 }
 #experi_big{
     position: absolute;
+    margin-top: -90px;
     left: 24.5%;
 }
 
@@ -69,12 +71,14 @@
 }
 
 .list-group-item:hover{
-    background:linear-gradient(to right, #00ffff, #121212);
-    color: white;
-}
-.list-group-item.active{
+    /* background:linear-gradient(to right, #00ffff, #121212); */
     background-color: #00ffff;
     color: black;
+}
+.list-group-item.active{
+    /* background-color: #00ffff; */
+    background:linear-gradient(to right, #00ffff, #121212);
+    color: white;
     border:2px solid black;
 }
 .scrollspy-example{

@@ -1,0 +1,253 @@
+.project_container{
+    animation: rgbt-border 3s infinite;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 650px;
+}
+
+.btn{
+    font-style: oblique;
+    font-size: 16px;
+    font-weight: 600;
+}
+#project_big{
+    /* font-size: 130px; */
+    margin-top: -100px;
+    margin-left: 0px;
+}
+#project_small{
+    position: absolute;
+    top:358%;
+    text-align: center;
+    margin-left: 5px;
+}
+
+/* Navbar Buttons */
+.skills-nav {
+  margin-bottom: 20px;
+}
+
+/* #pro_nav{
+    border: 3px solid #00ffff;
+    border-radius: 20px;
+    padding-top: 6px;
+    width: 600px;
+    color: #00ffff;
+    position: absolute;
+    top:378%;
+    left: 27%;
+    height: 60px;
+    background-color: red;
+} */
+
+#pro_nav {
+  position: absolute;
+  top: 378%;
+  left: 27%;
+  width: 600px;
+  height: 60px;
+  padding-top: 6px;
+  color: #00ffff;
+  border-radius: 20px;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Animated border using ::before */
+#pro_nav::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  background: linear-gradient(45deg, #00ffff, #00ffff, #00ffff, #121212, #121212, #121212);
+  background-size: 400%;
+  border-radius: 23px;
+  z-index: -1;
+  animation: rgb-border 6s ease-out infinite;
+}
+
+/* Inner box to mask the border */
+#pro_nav::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  border-radius: 17px;
+  z-index: -1;
+}
+
+/* Reuse the same animation */
+@keyframes rgb-border {
+  0% {
+    background-position: 0% 50%;
+    opacity:0.7;
+  }
+  50% {
+    background-position: 100% 50%;
+    opacity: 0.7;
+  }
+  100% {
+    background-position: 0% 50%;
+    opacity: 0.7;
+  }
+}
+
+
+#pro_link{
+    color: #00ffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 600;
+}
+
+#pro_link:hover{
+    font-size: large;
+    transition: 0.5s ease-in-out infinite;
+    /* background:linear-gradient(to right, #00ffff, #121212);
+    height: 40px; */
+}
+
+#project_cards{
+    /* background-color: pink; */
+    position: absolute;
+    top:392%;
+    left: 18.5%;
+    height: 390px;
+}
+#lin{
+    position: absolute;
+    top:455%;
+    left: 43%;
+    text-align: center;
+}
+
+.skills-nav button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  /* background-color: #eee; */
+background-color: red;
+  color:white  ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.skills-nav button.active {
+  background-color:red;
+  color: #fff;
+}
+
+/* Project Cards Grid */
+.projects-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Individual Project Card */
+.project-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Pagination Controls */
+/* .pagination-controls {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination-controls button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:disabled {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-weight: bold;
+} */
+
+
+/* Base pagination styles */
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+/* Page item styles */
+.page-item {
+  margin: 2px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: black;
+  background-color:#00ffff;
+  /* border: 1px solid #dee2e6; */
+  /* border-radius: 0.25rem; */
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: none;
+  /* border: 1px solid #00ffff; */
+}
+
+/* Hover effect */
+.page-link:hover {
+    color: black;
+    background-color:#00ffff;
+}
+
+/* Active page */
+.page-item.active .page-link {
+  z-index: 1;
+  color:#00ffff;
+  background-color:black;
+  border: 1px #00ffff solid;
+  /* border-color: #007bff; */
+}
+
+/* Disabled page */
+.page-item.disabled .page-link {
+  color:#00ffff;
+  pointer-events: none;
+  background-color: black;
+  border: none;
+  /* border-color: #dee2e6; */
+}
+
+/* Custom arrows */
+.page-link span[aria-hidden="true"] {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
