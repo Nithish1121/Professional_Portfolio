@@ -44,7 +44,8 @@ import Navbar from './Components/navbar';
 import Home from './Components/home';
 import About from './Components/about';
 import Experience from './Components/experience';
-import Projects from './Components/projects';
+import Projects from './Components/project';
+import Contact from './Components/contact';
 
 
 function App() {
@@ -62,6 +63,9 @@ function App() {
       </div>
       <div id="project">
         <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
     </div>
   );
