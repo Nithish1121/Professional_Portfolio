@@ -1,10 +1,10 @@
     .project_container{
-        animation: rgbt-border 3s infinite;
+        /* animation: rgbt-border 3s infinite; */
         margin-left: 20px;
         padding-top: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
-        height: 650px;
+        height: 670px;
     }
 
     .btn{
@@ -265,13 +265,14 @@
             position: absolute;
             top:257%;
             text-align: center;
-            margin-left: -6px;
+            left:29%
         }
         
         #pro_nav {
             position: absolute;
             top: 266%;
-            left:6%;
+            /* left:6%; */
+            left:13%;
             width:358px;
             padding-left: -10px;
             padding-top: 10px;
@@ -289,7 +290,9 @@
             position: absolute;
             top:283%;
             width: 358px;
-            left:10.6%;
+            /* left:10.6%; */
+            left:16%;
+
             height: auto;
         }
             .card{
@@ -314,13 +317,13 @@
             position: absolute;
             top:279%;
             text-align: center;
-            margin-left: -6px;
+            margin-left: 22px;
         }
         
         #pro_nav {
             position: absolute;
             top: 288%;
-            left:9%;
+            left:15%;
             width:358px;
             padding-left: -10px;
             padding-top: 10px;
@@ -338,7 +341,7 @@
             position: absolute;
             top:307%;
             width: 358px;
-            left:12.8%;
+            left:18%;
             height: auto;
         }
         .card{

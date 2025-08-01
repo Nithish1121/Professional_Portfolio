@@ -1,0 +1,224 @@
+.contactContainer{
+    /* animation: rgbt-border 3s infinite; */
+    height: 515px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.details{
+    width: 400px;
+    position: absolute;
+    top: 520%;
+    height: 335px;
+    left: 14%;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+
+#linked,#git{
+    color:white;
+}
+.details::before,.contact-form::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #00ffff, #00ffff, #00ffff, #121212, #121212, #121212);
+  background-size: 400%;
+  z-index: -1;
+  border-radius: 12px;
+  animation: rgb-border 4s ease-out infinite;
+}
+
+.details::after,.contact-form::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: black; /* or match your background */
+  border-radius: 8px;
+  z-index: -1;
+}
+
+
+.deSub{
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    gap:10px; 
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.deSubans{
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-style: oblique;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+
+#con_big{
+    position: absolute;
+    top:490.5%;
+        left:31.8%
+
+
+}
+#con_small{
+    position: absolute;
+    top:495.5%;
+    left:41.8%
+}
+.contact-form {
+    position: absolute;
+    top: 520%;
+    left:50%;
+    width: 450px;
+    height: 335px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px aqua(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid aqua;
+  color: aqua;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0);
+}
+input::placeholder,textarea::placeholder{
+    color: #00ffff;
+     font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 18px;
+}
+.form-group textarea {
+    height: 70px;
+    background-color: #121212;
+}
+.form-group input{
+    height:40px;
+    color: aqua;
+}
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  padding-top: 2px;
+  /* padding-bottom: 10px; */
+  background-color: black;
+  color: aqua;
+  border: 2px aqua solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 18px;
+}
+
+button[type="submit"]:hover {
+  background-color: aqua;
+  color: black;
+   border: 2px black solid;
+  border-radius: 10px;
+}
+
+i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #00ffff; /* Customize as needed */
+}
+
+@media (max-width:399px){
+  #con_small{
+    position: absolute;
+    top:405%;
+    left:35%
+}
+.details{
+    position: absolute;
+    left: 14%;
+    top: 415%;
+    width: 358px;
+    /* animation: rgbt-border 3s infinite; */
+    border: 2px solid #00ffff; 
+    box-shadow: 0 0 0 #00ffff, 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+.details::before{
+background-color: transparent;
+animation: none;
+}
+.details::after{
+  /* background-color: transparent; */
+  animation: none;
+}
+.contact-form{
+  position: absolute;
+  top: 460%;
+  left:14%;
+  width: 358px;
+  border: 2px solid #00ffff; 
+  box-shadow: 0 0 0 #00ffff, 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+}
+
+@media (min-width:400px) and (max-width:600px)
+{
+  #con_small{
+    position: absolute;
+    top:375%;
+    left:30%
+}
+.details{
+    position: absolute;
+    left: 13%;
+    top: 385%;
+    width: 358px;
+    /* animation: rgbt-border 3s infinite; */
+    border: 2px solid #00ffff; 
+    box-shadow: 0 0 0 #00ffff, 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+.details::before{
+background-color: transparent;
+animation: none;
+}
+.details::after{
+  /* background-color: transparent; */
+  animation: none;
+}
+.contact-form{
+  position: absolute;
+  top: 428%;
+  left:13%;
+  width: 358px;
+  border: 2px solid #00ffff; 
+  box-shadow: 0 0 0 #00ffff, 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+}

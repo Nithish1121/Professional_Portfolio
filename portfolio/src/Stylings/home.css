@@ -1,5 +1,5 @@
 .home{
-      animation: rgbt-border 3s infinite;
+      /* animation: rgbt-border 3s infinite; */
       width: auto;
       margin-top:15px;
       margin-left: 20px;
@@ -172,7 +172,7 @@
 .about{
     position: absolute;
     top:52%;
-    left:-17%
+    left:-14%
   }
 .home{
     animation: none;
@@ -189,7 +189,7 @@
     margin-top: 20px;
     margin-left: -48px;
     position: absolute;
-    left: 20%;
+    left: 25%;
     font-size: 21px;
     width:350px; 
 }
@@ -207,7 +207,7 @@
 .about{
     position: absolute;
     top:49%;
-    left:-17%
+    left:-14%
   }
 .home{
     animation: none;
@@ -224,7 +224,7 @@
     margin-top: 20px;
     margin-left: -50px;
     position: absolute;
-    left: 20%;
+    left: 25%;
     margin-right: 20px;
     /* padding-right: 25px; */
     font-size: 20px;

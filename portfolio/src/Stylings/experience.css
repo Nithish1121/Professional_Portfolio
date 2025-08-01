@@ -1,6 +1,6 @@
 .experience_container{
     height: 580px;
-    animation: rgbt-border 3s infinite;
+    /* animation: rgbt-border 3s infinite; */
     /* margin-top:0px; */
     margin-left: 20px;
     margin-right: 20px;
@@ -282,18 +282,18 @@ display: none;}
 
   #experi_small{
     top: 200%;
-    left: 27%;
+    left: 30%;
   }
   .toggle-switch {
     position: absolute;
-    left: 17%;
+    left: 25%;
     top: 207%;
   }
   .education-row,.experience-row{
     position: absolute;
     width: 83%;
     top: 217%;
-    left: 11.5%;
+    left: 17%;
   }
   .list-group-item{
     background-color: red;
@@ -328,7 +328,7 @@ display: none;}
 
   #experi_small{
     top: 220%;
-    left: 37%;
+    left: 43%;
   }
   .row{
   font-size: 16px ;
@@ -339,14 +339,14 @@ display: none;}
 }
   .toggle-switch {
     position: absolute;
-    left: 20%;
+    left: 25%;
     top: 227%;
   }
   .education-row,.experience-row{
     position: absolute;
     width: 93%;
     top: 237%;
-    left: 11.5%;
+    left: 17%;
   }
   .list-group-item{
     display: none;
