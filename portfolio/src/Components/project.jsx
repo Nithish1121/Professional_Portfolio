@@ -144,7 +144,7 @@ const Projects = () => {
       <div className="row" id='project_cards'>
         {paginatedProjects.map((project, index) => (
           <div className="col-md-4 mb-4" key={index}>
-            <div className="card" style={{ width: '100%' }}>
+            <div className="card" id='individual_cards' style={{ width: '100%' }}>
               <img src={project.image} className="card-img-top" alt={project.title} />
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
@@ -209,3 +209,97 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+// import React, { useState } from 'react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import { EffectCube, Pagination } from 'swiper/modules';
+// import 'swiper/css';
+// import 'swiper/css/effect-cube';
+// import 'swiper/css/pagination';
+// import "../Stylings/project.css";
+
+// import back from "../Image/backend2_imresizer.jpg";
+// import front from "../Image/frontend2.jpg";
+// import data from "../Image/Data-Analyst-Course_imresizer.jpg";
+// import full from "../Image/fullstack_imresizer.jpg";
+
+// const projectData = [
+//   { title: "React Portfolio", category: "frontend", description: "A personal portfolio built with React.", image: front, link: "#" },
+//   { title: "Node.js API", category: "backend", description: "RESTful API using Node.js and Express.", image: back, link: "#" },
+//   { title: "Fullstack Blog", category: "fullstack", description: "A blog platform using MERN stack.", image: full, link: "#" },
+//   { title: "Data Dashboard", category: "data-analysis", description: "Interactive dashboard for data visualization.", image: data, link: "#" },
+//   { title: "CSS Animations", category: "frontend", description: "Creative animations using pure CSS.", image: front, link: "#" },
+//   { title: "Express Auth", category: "backend", description: "Authentication system with JWT.", image: back, link: "#" },
+//   { title: "MERN Stack App", category: "fullstack", description: "A full-featured MERN stack application.", image: full, link: "#" },
+//   { title: "Python Analysis", category: "data-analysis", description: "Data analysis using Python and Pandas.", image: data, link: "#" },
+//   { title: "HTML Landing Page", category: "frontend", description: "Responsive landing page using HTML/CSS.", image: front, link: "#" },
+// ];
+
+// const categories = ["frontend", "backend", "fullstack", "data-analysis"];
+
+// const Projects = () => {
+//   const [selectedCategory, setSelectedCategory] = useState("frontend");
+
+//   const filteredProjects = projectData.filter(
+//     (project) => project.category === selectedCategory
+//   );
+
+//   return (
+//     <div className="project_container mt-4">
+//       <div className="project_header">
+//         <p className="big" id="project_big">Deliverables</p>
+//         <p className="small" id="project_small">Deliverables</p>
+//       </div>
+
+//       {/* Category Navbar */}
+//       <ul className="nav justify-content-center mb-4" id='pro_nav'>
+//         {categories.map((cat) => (
+//           <li className="nav-item" key={cat}>
+//             <a
+//               href="#"
+//               id='pro_link'
+//               className={`nav-link ${selectedCategory === cat ? 'active' : ''}`}
+//               onClick={(e) => {
+//                 e.preventDefault();
+//                 setSelectedCategory(cat);
+//               }}
+//             >
+//               {cat.toUpperCase()}
+//             </a>
+//           </li>
+//         ))}
+//       </ul>
+
+//       {/* Swiper Cube Effect */}
+//       <Swiper
+//         effect="cube"
+//         grabCursor={true}
+//         cubeEffect={{
+//           shadow: true,
+//           slideShadows: true,
+//           shadowOffset: 20,
+//           shadowScale: 0.94,
+//         }}
+//         pagination={true}
+//         modules={[EffectCube, Pagination]}
+//         className="mySwiper"
+//       >
+//         {filteredProjects.map((project, index) => (
+//           <SwiperSlide key={index}>
+//             <div className="card cube-card">
+//               <img src={project.image} className="card-img-top" alt={project.title} />
+//               <div className="card-body">
+//                 <h5 className="card-title">{project.title}</h5>
+//                 <p className="card-text">{project.description}</p>
+//                 <a href={project.link} className="btn btn-primary">Git Hub</a>
+//               </div>
+//             </div>
+//           </SwiperSlide>
+//         ))}
+//       </Swiper>
+//     </div>
+//   );
+// };
+
+// export default Projects;

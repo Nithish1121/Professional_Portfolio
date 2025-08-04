@@ -139,6 +139,19 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     }
+    #project_cards{
+        box-shadow: none;
+        border: none;
+
+    }
+    #individual_cards{
+        border: 2px aqua solid;
+        box-shadow: 4px 6px 7px 0px aqua;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-weight: bold;
+        border-radius: 10px;
+    }
 
     .skills-nav button.active {
     background-color:red;
@@ -154,7 +167,7 @@
     }
 
     /* Individual Project Card */
-    .project-card {
+    /* .project_cards {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
@@ -162,7 +175,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     transition: transform 0.3s ease;
-    }
+    } */
 
     .project-card:hover {
     transform: translateY(-5px);
@@ -234,7 +247,7 @@
     z-index: 1;
     color:#00ffff;
     background-color:black;
-    border: 1px #00ffff solid;
+    /* border: 1px #00ffff solid; */
     /* border-color: #007bff; */
     }
 
@@ -317,13 +330,13 @@
             position: absolute;
             top:279%;
             text-align: center;
-            margin-left: 22px;
+            margin-left:-2px;
         }
         
         #pro_nav {
             position: absolute;
             top: 288%;
-            left:15%;
+            left:12%;
             width:358px;
             padding-left: -10px;
             padding-top: 10px;
@@ -341,7 +354,7 @@
             position: absolute;
             top:307%;
             width: 358px;
-            left:18%;
+            left:15%;
             height: auto;
         }
         .card{
@@ -349,3 +362,7 @@
         }
 
     }
+
+
+
+
