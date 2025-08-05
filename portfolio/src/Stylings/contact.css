@@ -1,3 +1,5 @@
+
+
 .contactContainer{
     /* animation: rgbt-border 3s infinite; */
     height: 515px;
@@ -7,7 +9,7 @@
 .details{
     width: 400px;
     position: absolute;
-    top: 520%;
+    top: 640%;
     height: 335px;
     left: 14%;
     border-radius: 10px;
@@ -68,19 +70,17 @@
 
 #con_big{
     position: absolute;
-    top:490.5%;
-        left:31.8%
-
-
+    top:607.5%;
+    left:31.8%  
 }
 #con_small{
     position: absolute;
-    top:495.5%;
-    left:41.8%
+    top:612.5%;
+    left:43.8%
 }
 .contact-form {
     position: absolute;
-    top: 520%;
+    top: 640%;
     left:50%;
     width: 450px;
     height: 335px;
@@ -159,13 +159,16 @@ i {
 @media (max-width:399px){
   #con_small{
     position: absolute;
-    top:405%;
-    left:35%
+    top:503%;
+    left:35%;
+}
+#con_big{
+    display: none;
 }
 .details{
     position: absolute;
-    left: 14%;
-    top: 415%;
+    left: 11%;
+    top: 515%;
     width: 358px;
     /* animation: rgbt-border 3s infinite; */
     border: 2px solid #00ffff; 
@@ -181,8 +184,8 @@ animation: none;
 }
 .contact-form{
   position: absolute;
-  top: 460%;
-  left:14%;
+  top: 560%;
+  left:11%;
   width: 358px;
   border: 2px solid #00ffff; 
   box-shadow: 0 0 0 #00ffff, 0 0 5px #00ffff, 0 0 10px #00ffff;
@@ -193,13 +196,16 @@ animation: none;
 {
   #con_small{
     position: absolute;
-    top:375%;
-    left:30%
+    top:465%;
+    left:30%;
+}
+#con_big{
+    display: none;
 }
 .details{
     position: absolute;
-    left: 13%;
-    top: 385%;
+    left: 11%;
+    top: 475%;
     width: 358px;
     /* animation: rgbt-border 3s infinite; */
     border: 2px solid #00ffff; 
@@ -215,8 +221,8 @@ animation: none;
 }
 .contact-form{
   position: absolute;
-  top: 428%;
-  left:13%;
+  top: 518%;
+  left:11%;
   width: 358px;
   border: 2px solid #00ffff; 
   box-shadow: 0 0 0 #00ffff, 0 0 5px #00ffff, 0 0 10px #00ffff;

@@ -7,6 +7,10 @@
     position: absolute;
     left: 33.5%;
 }
+.certiContainer{
+  /* background-color:red !important; */
+  height: 550px;
+}
 
 /* .Carousel {
   width: 100%;
@@ -53,11 +57,11 @@
 
  .Carousel {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   position: absolute;
   top: 525%;
-  left: 10%;
+  left: 13%;
 }
 
 .mySwiper {

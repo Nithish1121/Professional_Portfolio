@@ -46,10 +46,10 @@ import Home from './Components/home';
 import About from './Components/about';
 import Experience from './Components/experience';
 import Projects from './Components/project';
-// import Contact from './Components/contact';
 import Certificate from './Components/certificate';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Contact from './Components/contact';
 
 
 function App() {
@@ -71,9 +71,9 @@ function App() {
       <div id="certificate">
         <Certificate/>
       </div>
-      {/* <div id="contact">
-        <Contact />
-      </div> */}
+      <div id="contact">
+        <Contact/>
+      </div>
     </div>
   );
 }
