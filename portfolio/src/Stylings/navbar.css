@@ -25,6 +25,7 @@
 }
 .navbar{
     background: linear-gradient(to top, #121212, #00ffff);
+    /* background-color: red; */
 }
 .bran{
     /* background-color: rebeccapurple; */
@@ -85,15 +86,28 @@
 @media (max-width: 450px){
     .name{
         padding-left: 0px;
+        /* color:rgb(199, 197, 197); */
     }   
     .role{
         margin-left: 140px;
-    }.nav-link {
-  position: relative;
-  color:#2e2e2e; /* or your preferred text color */
-  text-decoration: none;
-  padding-bottom: 6px; /* space between text and underline */
-  margin-left: 10px;
+    }
+
+    .nav-link {
+      position: relative;
+      color:rgb(0, 0, 0);
+      text-decoration: none;
+      padding-bottom: 10px; /* space between text and underline */
+      margin-left: 10px;
+}
+
+
+.nav-link::after{
+  width: 0%;
+  left: 38%;
+}
+.nav-link:hover::after{
+  width:0%;
+  left: 38%;
 }
 
 }

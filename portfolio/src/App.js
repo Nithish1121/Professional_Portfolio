@@ -50,6 +50,7 @@ import Certificate from './Components/certificate';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Contact from './Components/contact';
+import Footer from './Components/footer';
 
 
 function App() {
@@ -73,6 +74,9 @@ function App() {
       </div>
       <div id="contact">
         <Contact/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );

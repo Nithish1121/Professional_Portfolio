@@ -61,9 +61,7 @@
 //     </nav>
 //   );
 // };
-
 // export default Navbar;
-
 
 import "../Stylings/navbar.css";
 import { Link as ScrollLink } from "react-scroll";
@@ -115,7 +113,7 @@ const Navbar = () => {
                 Certificates
               </ScrollLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" id="lastoption">
               <ScrollLink className="nav-link" to="contact" smooth={true} duration={500}>
                 Contacts
               </ScrollLink>
@@ -128,3 +126,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
