@@ -8,53 +8,8 @@
     left: 33.5%;
 }
 .certiContainer{
-  /* background-color:red !important; */
   height: 550px;
 }
-
-/* .Carousel {
-  width: 100%;
-  position: absolute;
-  top:525%;
-  left: 18%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.mySwiper {
-  width: 100%;
-  height: 400px;
-}
-
-.mySwiper img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
- */
-
- /* .Carousel {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.mySwiper {
-  width: 100%;
-  height: 400px;
-}
-
-.mySwiper img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
- */
-
  .Carousel {
   width: 100%;
   max-width: 900px;
