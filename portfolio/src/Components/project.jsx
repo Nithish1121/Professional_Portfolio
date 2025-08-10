@@ -6,32 +6,32 @@ import data from "../Image/Data-Analyst-Course_imresizer.jpg";
 import full from "../Image/fullstack_imresizer.jpg";
 const projectData = [
   {
-    title: "React Portfolio",
+    title: "Professional Portfolio",
     category: "frontend",
-    description: "A personal portfolio built with React.",
+    description: "A sleek personal portfolio website built with React to showcase projects and enable direct contact via EmailJS.",
     image: front,
-    link: "#"
+    link: "https://github.com/Nithish1121/Professional_Portfolio.git"
   },
   {
-    title: "React Portfolio",
+    title: "Restaurant Website",
     category: "frontend",
-    description: "A personal portfolio built with React.",
+    description: "A stylish and responsive restaurant website built using HTML and CSS, showcasing menu items, and essential contact details.",
     image: front,
-    link: "#"
+    link: "https://github.com/Nithish1121/Guvi_Website_Clone.git"
   },
   {
-    title: "React Portfolio",
+    title: "Guvi Clone",
     category: "frontend",
-    description: "A personal portfolio built with React.",
+    description: "A front-end clone of the GUVI website built using React with Type Script, replicating its UI and UX elements for practice.",
     image: front,
-    link: "#"
+    link: "https://github.com/Nithish1121/Restaurant_Wesite.git"
   },
   {
-    title: "React Portfolio",
+    title: "Nike Website",
     category: "frontend",
-    description: "A personal portfolio built with React.",
+    description: "Nike website clone built with React, featuring sleek design and responsive layout.",
     image: front,
-    link: "#"
+    link: "https://github.com/Nithish1121/Nike_Website_Sample.git"
   },
   {
     title: "Node.js API",
@@ -54,13 +54,13 @@ const projectData = [
     image:data,
     link: "#"
   },
-  {
-    title: "CSS Animations",
-    category: "frontend",
-    description: "Creative animations using pure CSS.",
-    image: front,
-    link: "#"
-  },
+  // {
+  //   title: "CSS Animations",
+  //   category: "frontend",
+  //   description: "Creative animations using pure CSS.",
+  //   image: front,
+  //   link: "#"
+  // },
   {
     title: "Express Auth",
     category: "backend",
@@ -75,20 +75,20 @@ const projectData = [
     image: full,
     link: "#"
   },
-  {
-    title: "Python Analysis",
-    category: "data-analysis",
-    description: "Data analysis using Python and Pandas.",
-    image: data,
-    link: "#"
-  },
-  {
-    title: "HTML Landing Page",
-    category: "frontend",
-    description: "Responsive landing page using HTML/CSS.",
-    image: front,
-    link: "#"
-  },
+  // {
+  //   title: "Python Analysis",
+  //   category: "data-analysis",
+  //   description: "Data analysis using Python and Pandas.",
+  //   image: data,
+  //   link: "#"
+  // },
+  // {
+  //   title: "HTML Landing Page",
+  //   category: "frontend",
+  //   description: "Responsive landing page using HTML/CSS.",
+  //   image: front,
+  //   link: "#"
+  // },
 ];
 
 const categories = ["frontend", "backend", "fullstack", "data-analysis"];

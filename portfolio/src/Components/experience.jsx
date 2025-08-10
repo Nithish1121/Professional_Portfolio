@@ -376,22 +376,22 @@ useEffect(() => {
               <h4 id="list-item-4">Software Developer</h4>
               <p><span className="sideHeading">Company Name: </span>Capgemini</p>
               <p><span className="sideHeading">Employment Period: </span>25/10/2024 - Current</p>
-              <p><span className="sideHeading">Tools & Technologies Used: </span></p>
+              <p><span className="sideHeading">Technologies Used: </span>Java, SpringBoot, JS, HTML, CSS, React, PostgreSQL</p>
 
               <h4 id="list-item-5">Technical Support Executive</h4>
               <p><span className="sideHeading">Company Name: </span>Betsol</p>
               <p><span className="sideHeading">Employment Period: </span>01/06/2024 - 20/10/2025</p>
-              <p><span className="sideHeading">Tools & Technologies Used: </span></p>
+              <p><span className="sideHeading">Technologies Used: </span>LogMeIn, Citrix, ServiceNow</p>
 
               <h4 id="list-item-6">Data Scientist</h4>
-              <p><span className="sideHeading">Company Name: </span></p>
-              <p><span className="sideHeading">Employment Period: </span></p>
-              <p><span className="sideHeading">Tools & Technologies Used: </span></p>
+              <p><span className="sideHeading">Company Name: </span>Musigma</p>
+              <p><span className="sideHeading">Employment Period: </span> 22/07/2023 - 10/03/2025</p>
+              <p><span className="sideHeading">Technologies Used: </span>EDA, Python, Pandas, PowerBI , Excel</p>
 
               <h4 id="list-item-7">Mobile App Developer Intern</h4>
-              <p><span className="sideHeading">Company Name: </span></p>
-              <p><span className="sideHeading">Employment Period: </span></p>
-              <p><span className="sideHeading">Tools & Technologies Used: </span></p>
+              <p><span className="sideHeading">Company Name: </span> ATS TechnoSoft</p>
+              <p><span className="sideHeading">Employment Period: </span>01/02/2022 - 01/04/2022</p>
+              <p><span className="sideHeading">Technologies Used: </span> Android Studio</p>
             </div>
           </div>
         </div>
