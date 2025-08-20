@@ -422,6 +422,7 @@
   overflow-x: hidden;
   display: flex;
   justify-content: center;
+  background-color: red;
 }
 
 .home-content {
