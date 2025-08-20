@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Professional_Portfolio/static/css/main.1c0f7453.css",
-    "main.js": "/Professional_Portfolio/static/js/main.249b7ac0.js",
+    "main.css": "/Professional_Portfolio/static/css/main.b0dbbb1c.css",
+    "main.js": "/Professional_Portfolio/static/js/main.2260e586.js",
     "static/media/fa-solid-900.woff2": "/Professional_Portfolio/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
     "static/media/backend2_imresizer.jpg": "/Professional_Portfolio/static/media/backend2_imresizer.78e31cf0d7485221e917.jpg",
     "static/media/fa-brands-400.woff2": "/Professional_Portfolio/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
@@ -13,17 +13,18 @@
     "static/media/Data-Analyst-Course_imresizer.jpg": "/Professional_Portfolio/static/media/Data-Analyst-Course_imresizer.cbbf2839667c694d921b.jpg",
     "static/media/fa-regular-400.woff2": "/Professional_Portfolio/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
     "static/media/frontend2.jpg": "/Professional_Portfolio/static/media/frontend2.339eb19a626a780827bb.jpg",
+    "static/media/profile_pic.jpg": "/Professional_Portfolio/static/media/profile_pic.d7f04a79a415c0c937f7.jpg",
     "static/media/fa-v4compatibility.woff2": "/Professional_Portfolio/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
     "static/media/slick.svg": "/Professional_Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Professional_Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Professional_Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Professional_Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Professional_Portfolio/index.html",
-    "main.1c0f7453.css.map": "/Professional_Portfolio/static/css/main.1c0f7453.css.map",
-    "main.249b7ac0.js.map": "/Professional_Portfolio/static/js/main.249b7ac0.js.map"
+    "main.b0dbbb1c.css.map": "/Professional_Portfolio/static/css/main.b0dbbb1c.css.map",
+    "main.2260e586.js.map": "/Professional_Portfolio/static/js/main.2260e586.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c0f7453.css",
-    "static/js/main.249b7ac0.js"
+    "static/css/main.b0dbbb1c.css",
+    "static/js/main.2260e586.js"
   ]
 }
