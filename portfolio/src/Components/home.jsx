@@ -26,13 +26,14 @@
 
 
 import "../Stylings/home.css";
+import pic from "../Image/profile_pic.jpg";
 
 const Home=()=>{
     return(
         <div className="home">
             <div className="home-content">
                 <div className="profile">
-                <img src="/Images/profile_pic.jpg" className="img-thumbnail" alt="..." />
+                <img src={pic} className="img-thumbnail" alt="..." />
                 </div>
 
             <div className="text-section">
@@ -47,7 +48,7 @@ const Home=()=>{
             <div className="welcome">
                 <p>
                 Building the future with clean code, creativity, and a passion for innovation.<br />
-                Welcome to my personal dev workspace where ideas come to life.
+                Welcome to my dev workspace where ideas come to life.
                 </p>
                 <div className="button-group">
                 <a className="btn" id="bt1" href="#contact" role="button">Contact Me</a>
@@ -55,7 +56,7 @@ const Home=()=>{
                 </div>
             </div>
             </div>
-            </div>
+        </div>
         </div>
     )
 }
