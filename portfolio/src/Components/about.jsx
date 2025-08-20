@@ -3,11 +3,16 @@ import "../Stylings/about.css";
 const About=()=>{
     return (
         <div className="aboutContainer">
-            <div className="about1">
+            {/* <div className="about1">
                 <p className="big" id="about_big">About</p>
                 <p className="small">About Me</p>
+            </div> */}
+            <div className="about1">
+                <div className="about-header">
+                <p className="big" id="about_big">About</p>
+                <p className="small">About Me</p>
+                </div>
             </div>
-        
             <div className="card1" >
                 <div className="card1-body">
                     <h4 className="card1-title">Who am I ? </h4>

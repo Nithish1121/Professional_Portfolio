@@ -1,11 +1,10 @@
-.aboutContainer{
-    /* animation: rgbt-border 3s infinite; */
+/* .aboutContainer{
     border: 4px solid transparent;
     margin-right:20px;
     margin-left:20px;
     height: 550px;
     margin-bottom: 30px;
-}
+} */
 
 @keyframes rgbt-border {
   /* 100% {
@@ -21,7 +20,7 @@
   }
 }
 
-.big{
+/* .big{
     font-size:140px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
@@ -29,9 +28,10 @@
     margin-left: -60px;
     color: aqua;
     opacity: 0.1;
-}
+} */
 
-.small{
+
+/* .small{
     font-family:Georgia, 'Times New Roman', Times, serif;
     z-index: 0;
     color: #00ffff;
@@ -39,10 +39,48 @@
     font-size: 33px;
     top: 117%;
     left:43.2%;
+} */
+
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid transparent;
+  margin: 0 20px 30px 20px;
+  height: 550px;
+  position: relative;
 }
 
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 20px; */
+  position: relative;
+  /* background-color: red; */
+}
+
+.big {
+  font-size: 140px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  margin-top: -65px;
+  margin-left: -60px;
+  color: aqua;
+  opacity: 0.1;
+}
+
+.small {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #00ffff;
+  font-size: 33px;
+  margin-top: -130px; /* Adjust this to match the original vertical position */
+}
+
+
 .card1{
-    margin-top: -20px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     margin-left: 60px;
@@ -325,3 +363,10 @@ background: linear-gradient(to right, #00ffff, #000000);
     height: 20px;
 }
 }
+/* @media (max-width:1400px)
+{
+    .small{
+        background-color: red;
+        top:115%;
+    }
+} */
