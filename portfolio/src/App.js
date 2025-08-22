@@ -45,11 +45,11 @@ import Navbar from './Components/navbar';
 import Home from './Components/home';
 import About from './Components/about';
 import Experience from './Components/experience';
-import Projects from './Components/project';
-import Certificate from './Components/certificate';
+// import Projects from './Components/project';
+// import Certificate from './Components/certificate';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Contact from './Components/contact';
+// import Contact from './Components/contact';
 import Footer from './Components/footer';
 
 
@@ -66,7 +66,7 @@ function App() {
       <div id="experience">
         <Experience />
       </div>
-      <div id="project">
+      {/* <div id="project">
         <Projects />
       </div>
       <div id="certificate">
@@ -74,7 +74,7 @@ function App() {
       </div>
       <div id="contact">
         <Contact/>
-      </div>
+      </div> */}
       <div>
         <Footer/>
       </div>

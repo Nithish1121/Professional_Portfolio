@@ -111,7 +111,6 @@
   /* margin-right: 10px; */
   /* background-color: red; */
   margin-top: 5px;
-  
 }
 
 .progress {
@@ -151,7 +150,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin-top: 10px; */
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-weight: bolder !important;
+  /* margin-top: 5px;
+  padding-top: 5px; */
   /* gap: 10px; */
   /* background-color: red; */
 }
@@ -195,7 +198,7 @@
     margin-top: 10px;
     text-align: center;
   }
-
+   
   .card1 {
     flex-direction: column;
     align-items: center;
