@@ -1,18 +1,10 @@
 {
   "files": {
-    "main.css": "/Professional_Portfolio/static/css/main.e8d8dae5.css",
-    "main.js": "/Professional_Portfolio/static/js/main.4efb138a.js",
+    "main.css": "/Professional_Portfolio/static/css/main.3c3a1389.css",
+    "main.js": "/Professional_Portfolio/static/js/main.8e996f0f.js",
     "static/media/fa-solid-900.woff2": "/Professional_Portfolio/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
-    "static/media/backend2_imresizer.jpg": "/Professional_Portfolio/static/media/backend2_imresizer.78e31cf0d7485221e917.jpg",
     "static/media/fa-brands-400.woff2": "/Professional_Portfolio/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
-    "static/media/Agile.jpg": "/Professional_Portfolio/static/media/Agile.6fcc9097cc21c1c55e3d.jpg",
-    "static/media/Deep Learning.jpg": "/Professional_Portfolio/static/media/Deep Learning.f8362e8836a1f8ccd310.jpg",
-    "static/media/fullstack_imresizer.jpg": "/Professional_Portfolio/static/media/fullstack_imresizer.5927b0ff14fa2086343d.jpg",
-    "static/media/SOLID.jpg": "/Professional_Portfolio/static/media/SOLID.7e0e4c01e570fdc7056e.jpg",
-    "static/media/Story_telling.jpg": "/Professional_Portfolio/static/media/Story_telling.2e6799dfa0b9982c7e8b.jpg",
-    "static/media/Data-Analyst-Course_imresizer.jpg": "/Professional_Portfolio/static/media/Data-Analyst-Course_imresizer.cbbf2839667c694d921b.jpg",
     "static/media/fa-regular-400.woff2": "/Professional_Portfolio/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
-    "static/media/frontend2.jpg": "/Professional_Portfolio/static/media/frontend2.339eb19a626a780827bb.jpg",
     "static/media/profile_pic.jpg": "/Professional_Portfolio/static/media/profile_pic.d7f04a79a415c0c937f7.jpg",
     "static/media/fa-v4compatibility.woff2": "/Professional_Portfolio/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
     "static/media/slick.svg": "/Professional_Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -20,11 +12,11 @@
     "static/media/slick.ttf": "/Professional_Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Professional_Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Professional_Portfolio/index.html",
-    "main.e8d8dae5.css.map": "/Professional_Portfolio/static/css/main.e8d8dae5.css.map",
-    "main.4efb138a.js.map": "/Professional_Portfolio/static/js/main.4efb138a.js.map"
+    "main.3c3a1389.css.map": "/Professional_Portfolio/static/css/main.3c3a1389.css.map",
+    "main.8e996f0f.js.map": "/Professional_Portfolio/static/js/main.8e996f0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8d8dae5.css",
-    "static/js/main.4efb138a.js"
+    "static/css/main.3c3a1389.css",
+    "static/js/main.8e996f0f.js"
   ]
 }
