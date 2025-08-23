@@ -193,10 +193,11 @@
     margin: 0;
   }
 
-  .small {
+  #about_small {
     font-size: 24px;
-    margin-top: 10px;
+    margin-top: -73px;
     text-align: center;
+    /* color:red; */
   }
    
   .card1 {
