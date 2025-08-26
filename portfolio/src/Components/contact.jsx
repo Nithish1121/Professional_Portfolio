@@ -166,7 +166,7 @@ const Contact = () => {
   return (
     <div className="contactContainer">
       <div className="contactHeader">
-        <h1 className="contactTitle">Contact</h1>
+        <h1 className="contactTitle" id="con_title">Contact</h1>
         <p className="contactSubtitle">Get in Touch</p>
       </div>
 

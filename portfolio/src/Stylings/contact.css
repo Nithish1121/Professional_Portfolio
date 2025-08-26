@@ -37,6 +37,7 @@
   justify-content: space-between;
   gap: 30px;
   width: 85%;
+  /* overflow: auto; */
   margin-left: 100px;
   /* background-color: red; */
 }
@@ -188,21 +189,28 @@ i {
   .contactContent {
     flex-direction: column;
     align-items: center;
+    margin-left: 0px;
+    width: 100%;
   }
-
   .details,
   .contact-form {
     width: 100%;
-    max-width: 360px;
+    max-width: auto;
   }
-
+  .deSub{
+    /* padding-left: -20px !important; */
+    margin-left: -30px;
+  }
+  .deSubans{
+    margin-left: -14px;
+  }
   .contactTitle {
-    font-size: 40px;
+    font-size: 80px;
   }
 
   .contactSubtitle {
-    font-size: 22px;
-    margin-top: 0;
+    font-size: 27px;
+    margin-top: -60px;
   }
 }
 
