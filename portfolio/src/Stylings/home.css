@@ -202,7 +202,12 @@
     width: 100%;
     box-sizing: border-box;
   }
-
+  .welcome{
+    background-color: red;
+    max-width: auto;
+    padding-left: 0px;
+  }
+  
   .about-header {
     display: flex;
     flex-direction: column;

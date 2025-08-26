@@ -191,26 +191,44 @@
 
 .page-link {
   padding: 0.5rem 0.75rem;
-  color: black;
-  background-color: #00ffff;
+  color: aqua;
+  /* box-shadow: #00e0e0 0px 0px 10px 2px; */
+  /* background-color: #00ffff; */
+  background-color: black;
   border: none;
   text-decoration: none;
   transition: all 0.3s ease;
+  gap: 10px;
+  /* margin-left: 10px; */
 }
 
 .page-link:hover {
   background-color: #00e0e0;
+  color: black;
+}
+.pagination{
+  /* background-color: red; */
+  /* width: 50px; */
+  gap: 5px;
 }
 
 .page-item.active .page-link {
   background-color: black;
-  color: #00ffff;
+  color:aqua;
+  /* opacity: 0.5; */
+  /* background-color: red; */
+  /* color: #00ffff; */
+  /* border: 2px solid aqua; */
+  box-shadow: aqua  0px 0px 10px 2px;
 }
-
 .page-item.disabled .page-link {
   background-color: black;
+  /* background-color: purple; */
   color: #00ffff;
   pointer-events: none;
+  /* border: 2px solid aqua; */
+  box-shadow: aqua 0px 0px 10px 2px;
+  /* display: none; */
 }
 
 /* Mobile-Specific Styles */

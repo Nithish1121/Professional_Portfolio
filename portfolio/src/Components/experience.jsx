@@ -217,9 +217,9 @@ const Experience = () => {
           }
         />
         <label htmlFor="switch">
-          <span className="switch-label education">Education</span>
+          <span className="switch-label education">EDUCATION</span>
           <span className="switch-slider"></span>
-          <span className="switch-label experience">Experience</span>
+          <span className="switch-label experience">EXPERIENCE</span>
         </label>
       </div>
 

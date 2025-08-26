@@ -50,7 +50,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item" id="lastoption">
               <ScrollLink className="nav-link" to="contact" smooth={true} duration={500}>
-                Contacts
+                Contact
               </ScrollLink>
             </li>
           </ul>

@@ -354,7 +354,7 @@ const projectData = [
   },
   {
     title: "Data Dashboard",
-    category: "data-analysis",
+    category: "data-analytics",
     description: "Interactive dashboard for data visualization.",
     image: data,
     link: "#"
@@ -375,7 +375,7 @@ const projectData = [
   }
 ];
 
-const categories = ["frontend", "backend", "fullstack", "data-analysis"];
+const categories = ["frontend", "backend", "fullstack", "data-analytics"];
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("frontend");
@@ -455,6 +455,7 @@ const Projects = () => {
               <li
                 className={`page-item ${currentPage === i + 1 ? 'active' : ''}`}
                 key={i}
+               
               >
                 <a
                   className="page-link"
