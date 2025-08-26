@@ -465,9 +465,7 @@ display: none;}
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* background-color: purple; */
   width: 900px;
-  /* min-width: none; */
 }
 
 
@@ -642,8 +640,8 @@ display: none;}
   }
 
   .experi_small {
-    font-size: 16px;
-    margin-top: -77px;
+    font-size: 24px !important;
+    margin-top: -60px;
   }
 
   .toggle-switch {
@@ -667,6 +665,10 @@ display: none;}
     font-size: 14px;
     padding: 8px;
   }
+  #list-example{
+  /* background-color: red; */
+  margin-top: 0px;
+}
 }
 
 @media (min-width: 601px )and (max-width: 768px) {
