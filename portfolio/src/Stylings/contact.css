@@ -196,13 +196,14 @@ i {
   .contact-form {
     width: 100%;
     max-width: auto;
+    height: fit-content;
   }
   .deSub{
     /* padding-left: -20px !important; */
     margin-left: -30px;
   }
   .deSubans{
-    margin-left: -14px;
+    margin-left: -25px;
   }
   .contactTitle {
     font-size: 80px;

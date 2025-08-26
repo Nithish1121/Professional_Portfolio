@@ -27,9 +27,13 @@
     display: inline-block;
     float: right;
     height: 20px;
-    padding-right: 40px;
+    margin-right: 20px;
+    width: auto;
     margin-top: 10px;
+    /* background-color: red; */
 }
+
+
 @media (max-width: 600px){
     .footText{
         padding-left: 0px;
@@ -40,10 +44,11 @@
     .ico{
         float: none;
         text-align: center;
-        margin-top: 18px;
-        padding-left: 18px;
+        /* margin-top: 18px; */
+        /* padding-left: 18px; */
         padding-right: 0px;
         height: 15px;
+        margin-bottom: 30px;
     }
    
 }
