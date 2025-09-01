@@ -6,27 +6,18 @@ const Navbar = () => {
   useEffect(() => {
     const navLinks = document.querySelectorAll(".nav-link");
     const navbarCollapse = document.getElementById("navbarNav");
-    const navbar = document.querySelector(".navbar");
+    // const navbar = document.querySelector(".navbar");
 
     navLinks.forEach((link) => {
       link.addEventListener("click", () => {
-        // Collapse the navbar
-        const bsCollapse = new window.bootstrap.Collapse(navbarCollapse, {
-          toggle: false,
+        const bsCollapse = new window .bootstrap.Collapse(navbarCollapse, {
+          toggle: true,
         });
         bsCollapse.hide();
       });
     });
-
-    // Toggle class on navbar when menu is shown/hidden
-    navbarCollapse.addEventListener("shown.bs.collapse", () => {
-      navbar.classList.add("menu-open");
-    });
-
-    navbarCollapse.addEventListener("hidden.bs.collapse", () => {
-      navbar.classList.remove("menu-open");
-    });
   }, []);
+
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
