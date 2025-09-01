@@ -11,9 +11,18 @@
   text-decoration: none;
   cursor: pointer;
 }
-/* .navbar{
-  position: fixed;
-} */
+
+
+.nav-item.show{
+  color: red !important;
+}
+
+
+.container-fluid{
+  margin-top: -10px;
+padding-top: 10px;
+}
+
 .role{
     font-size: 16px;
     font-family:cursive ;
@@ -83,7 +92,22 @@
   width: 100%;
 }
 
-@media (max-width: 450px){
+.navbar #navbarNav.show {
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  border-radius: 20px;
+  width: 100px;
+  /* background-color: rgb(0, 0, 0); */
+  transition: all 0.1s ease-in-out;
+  /* opacity: 0.3; */
+}
+.navbar.menu-open .nav-link {
+  color:white; /* or any color you prefer */
+}
+
+
+
+
+@media (max-width: 600px){
     .name{
         padding-left: 0px;
         /* color:rgb(199, 197, 197); */
@@ -100,7 +124,6 @@
       margin-left: 10px;
 }
 
-
 .nav-link::after{
   width: 0%;
   left: 38%;
@@ -109,5 +132,24 @@
   width:0%;
   left: 38%;
 }
+}
+@media (min-width: 601px )and (max-width: 768px)
+{
+   .nav-link {
+      position: relative;
+      color:rgb(0, 0, 0);
+      text-decoration: none;
+      padding-bottom: 10px; /* space between text and underline */
+      margin-left: 10px;
+      border-color: red;
+}
 
+.nav-link::after{
+  width: 0%;
+  left: 38%;
+}
+.nav-link:hover::after{
+  width:25%;
+  left: 38%;
+}
 }

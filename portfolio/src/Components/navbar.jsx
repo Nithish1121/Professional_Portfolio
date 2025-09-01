@@ -1,12 +1,38 @@
 import "../Stylings/navbar.css";
 import { Link as ScrollLink } from "react-scroll";
+import { useEffect } from "react";
 
 const Navbar = () => {
+  useEffect(() => {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const navbarCollapse = document.getElementById("navbarNav");
+    const navbar = document.querySelector(".navbar");
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        // Collapse the navbar
+        const bsCollapse = new window.bootstrap.Collapse(navbarCollapse, {
+          toggle: false,
+        });
+        bsCollapse.hide();
+      });
+    });
+
+    // Toggle class on navbar when menu is shown/hidden
+    navbarCollapse.addEventListener("shown.bs.collapse", () => {
+      navbar.classList.add("menu-open");
+    });
+
+    navbarCollapse.addEventListener("hidden.bs.collapse", () => {
+      navbar.classList.remove("menu-open");
+    });
+  }, []);
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div className="container-fluid">
         <div className="bran">
-          <ScrollLink className="no-underline" to="home" smooth={true} duration={10}  >
+          <ScrollLink className="no-underline" to="home" smooth={true} duration={10}>
             <h3 className="name">
               <span className="symbol">&lt; / &gt;</span> Nithish Kumar R
             </h3>
@@ -28,31 +54,13 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <ScrollLink className="nav-link" to="about" smooth={true} duration={500}>
-                About
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink className="nav-link" to="experience" smooth={true} duration={500}>
-                Experience
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink className="nav-link" to="project" smooth={true} duration={500}>
-                Projects
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink className="nav-link" to="certificate" smooth={true} duration={500}>
-                Certificates
-              </ScrollLink>
-            </li>
-            <li className="nav-item" id="lastoption">
-              <ScrollLink className="nav-link" to="contact" smooth={true} duration={500}>
-                Contact
-              </ScrollLink>
-            </li>
+            {["about", "experience", "project", "certificate", "contact"].map((section, index) => (
+              <li className="nav-item" key={index} id={section === "contact" ? "lastoption" : ""}>
+                <ScrollLink className="nav-link" to={section} smooth={true} duration={500}>
+                  {section.charAt(0).toUpperCase() + section.slice(1)}
+                </ScrollLink>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
@@ -61,5 +69,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
